@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 75px;
+    font-weight: 450;
+    margin-bottom: 0px;
+    color: #4a5759;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    gap: 10px;
+    background-color: #b0c4b1;
+
+}
+
+.nav-button, .message-button {
+    width: 150px;
+    height: 50px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: #4a5759;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 450;
+    margin-top: 15px;
+    color: #4a5759;
+}
+
+.resume-button {
+    width: 100px;
+    height: 30px;
+    font-family: "Montserrat";
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: white;
+    background-color: #4a5759;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat";
+    font-weight: 450;
+    color: #4a5759;
+}
+
+.socials p {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.socials ul {
+    font-size: 15px;
+}
+
+a:link, a:visited {
+    color: #4a5759;
+}
+
+@media (max-width: 320px ) {
+    h1 {
+        font-size: 35px;
+    }
+
+    .nav {
+        height: 40px;
+    }
+
+    .nav-button, .message-button {
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+    .about {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .nav {
+        height: 40px;
+    }
+
+    .nav-button, .message-button {
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+    .about {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    .nav {
+        height: 40px;
+    }
+
+    .nav-button, .message-button {
+        width: 80px;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+    .about {
+        font-size: 20px;
+    }
+}
+
+
+
