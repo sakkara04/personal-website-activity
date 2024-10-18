@@ -1,1 +1,1 @@
-My personal webpage! I developed it using HTML and CSS. I utilized Flexbox for structure and media queries for responsiveness.
+My personal webpage! I developed it using HTML, CSS, and JavaScript. Its features include a color-changing nav bar and a "message me" button. Check it out!!
